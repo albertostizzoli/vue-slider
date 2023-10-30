@@ -55,5 +55,10 @@ createApp({
             }
         },
     },
+    mounted(){
+        setInterval(() => {
+            this.nextSlide();
+          }, 2000);
+    }
 }).mount('#app');
 
